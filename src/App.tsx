@@ -147,7 +147,7 @@ const App: React.FC = () => {
                   <td style={{ width: "100px" }}>
                     {item.price.toLocaleString()} บาท
                   </td>
-                  <td>{item.source}</td>
+                  <td style={{ width: "50vh" }}>{item.source}</td>
                 </tr>
               ))
             ) : (
