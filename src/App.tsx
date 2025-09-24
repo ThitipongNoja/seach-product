@@ -142,7 +142,7 @@ const App: React.FC = () => {
             {filteredData.length > 0 ? (
               filteredData.map((item: Item, index: number) => (
                 <tr key={`${item.id}-${index}`}>
-                  <td style={{ width: "100px" }}>{item.id}</td>
+                  <td style={{ width: "130px" }}>{item.id}</td>
                   <td style={{ width: "50vh" }}>{item.name}</td>
                   <td style={{ width: "100px" }}>
                     {item.price.toLocaleString()} บาท
