@@ -1,0 +1,87 @@
+/* Dark background */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #121212;
+  color: #eee;
+}
+
+.dark-container {
+  max-width: 90%;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #ffcc00;
+}
+
+/* Search input */
+.search-input {
+  width: 80%;
+  max-width: 600px;
+  padding: 12px 16px;
+  margin-bottom: 30px;
+  border-radius: 12px;
+  border: none;
+  font-size: 16px;
+  background-color: #1e1e1e;
+  color: #eee;
+}
+
+.search-input::placeholder {
+  color: #888;
+}
+
+/* Table wrapper for horizontal scroll on small screens */
+.table-wrapper {
+  overflow-x: auto;
+}
+
+/* Dark table */
+.dark-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 16px;
+  min-width: 600px;
+}
+
+.dark-table th,
+.dark-table td {
+  padding: 14px 20px;
+  text-align: center;
+}
+
+.dark-table thead {
+  background-color: #1f1f1f;
+  color: #ffcc00;
+  font-weight: bold;
+}
+
+.dark-table tbody tr {
+  border-bottom: 1px solid #333;
+  transition: background 0.3s ease;
+}
+
+.dark-table tbody tr:nth-child(even) {
+  background-color: #1a1a1a;
+}
+
+.dark-table tbody tr:hover {
+  background-color: #333;
+}
+
+/* No data message */
+.no-data {
+  text-align: center;
+  padding: 20px;
+  color: #888;
+}
+
+/* Responsive text wrap for source column */
+.dark-table td {
+  word-break: break-all;
+}
